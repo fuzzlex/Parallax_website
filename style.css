@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.firstpage{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.firstpage_mainText{
+    max-width: 19rem;
+    margin: auto;
+    padding-top: 15rem;  
+}
+.firstpage_mainText button{
+
+    padding: 2rem 2.5rem;
+    font-size: 1.9rem;
+    background-color:#484855;
+    color: white;
+    border-radius: 40px 0px 40px;
+    outline: 5px solid #9048AA ;
+    outline-offset: 10px;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.secondpage{
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.secondpage_mainText{
+    max-width: 100rem; 
+    height: 18rem;
+    background-color: #e1e1f1
+}
+.secondpage_header{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.secondpage_text{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+span{
+    font-weight: bolder;
+}
+.secondpage_image{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.secondpage_image img{
+   width: 50rem;
+   opacity: .5;
+   margin-top: 110px;
+}
+.thirdpage{
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.thirdpage_mainText{
+    max-width: 100rem; 
+    height: 14rem;
+    background-color: #484855;
+    color: white;
+}
+.thirdpage_header{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirdpage_text{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.thirdpage_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.thirdpage_button button{
+    
+    padding: 2rem 2.5rem;
+    font-size: 1.9rem;
+    background-color:#484855;
+    color: white;
+    border-radius: 40px 0px 40px;
+    outline: 5px solid #9048AA ;
+    outline-offset: 10px;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.forthpage{
+    background-image: url(img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.forthpage_mainText{
+    max-width: 100rem; 
+    height: 14rem;
+    background-color: #e1e1f1;
+    color: rgb(0, 0, 0);
+}
+.forthpage_header{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forthpage_text{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.forthpage_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.forthpage_button button{
+    
+    padding: 2rem 2.5rem;
+    font-size: 1.9rem;
+    background-color:#484855;
+    color: white;
+    border-radius: 40px 0px 40px;
+    outline: 5px solid #9048AA ;
+    outline-offset: 10px;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+.fifthpage{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.fifthpage_mainText{
+    max-width: 100rem; 
+    height: 16rem;
+    background-color: #484855;
+    color: white;
+    
+   
+}
+.fifthpage_header{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifthpage_text{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.fifthpage_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.fifthpage_button button{
+    
+    padding: 2rem 2.5rem;
+    font-size: 1.9rem;
+    background-color:#484855;
+    color: white;
+    border-radius: 40px 0px 40px;
+    outline: 5px solid #9048AA ;
+    outline-offset: 10px;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.sixthpage{
+     background-image: url(img/bg.jpg);
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+   
+ 
+   
+    
+}
+.sixthpage button{
+    padding: 2rem 2.5rem;
+    font-size: 1.9rem;
+    background-color:#484855;
+    color: white;
+    border-radius: 40px 0px 40px;
+    outline: 5px solid #9048AA ;
+    outline-offset: 10px;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
