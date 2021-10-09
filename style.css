@@ -11,11 +11,13 @@
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .firstpage_mainText{
-    max-width: 19rem;
-    margin: auto;
-    padding-top: 15rem;  
+    
+     
 }
 .firstpage_mainText button{
 
@@ -38,9 +40,7 @@
     height: 100vh;
 }
 .secondpage_mainText{
-    max-width: 100rem; 
-    height: 18rem;
-    background-color: #e1e1f1
+    background-color: #e1e1f1;
 }
 .secondpage_header{
     text-align: center;
@@ -60,14 +60,16 @@ span{
     font-weight: bolder;
 }
 .secondpage_image{
-    display: flex;
-    align-items:center;
-    justify-content:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .secondpage_image img{
-   width: 50rem;
+   width: 20rem;
    opacity: .5;
-   margin-top: 110px;
+   margin-top: 50px;
+
 }
 .thirdpage{
     background-image: url(img/bg3.jpg);
@@ -77,16 +79,17 @@ span{
     height: 100vh;
 }
 .thirdpage_mainText{
-    max-width: 100rem; 
-    height: 14rem;
     background-color: #484855;
     color: white;
+    display: block;
+    
 }
 .thirdpage_header{
     text-align: center;
     padding-top: 20px;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .thirdpage_text{
     text-align: center;
@@ -99,8 +102,10 @@ span{
 .thirdpage_button{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 150px;
+    margin-top: 50px;
+    
+    
+    
 }
 .thirdpage_button button{
     
@@ -114,6 +119,7 @@ span{
     letter-spacing: 0.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    
 }
 .forthpage{
     background-image: url(img/bg4.jpg);
@@ -121,12 +127,12 @@ span{
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
+   
 }
 .forthpage_mainText{
-    max-width: 100rem; 
-    height: 14rem;
     background-color: #e1e1f1;
     color: rgb(0, 0, 0);
+   
 }
 .forthpage_header{
     text-align: center;
@@ -141,12 +147,14 @@ span{
     letter-spacing: 0.1rem;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
+  
 }
 .forthpage_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 50px;
+  
 }
 .forthpage_button button{
     
@@ -170,8 +178,7 @@ span{
     height: 100vh;
 }
 .fifthpage_mainText{
-    max-width: 100rem; 
-    height: 16rem;
+  
     background-color: #484855;
     color: white;
     
